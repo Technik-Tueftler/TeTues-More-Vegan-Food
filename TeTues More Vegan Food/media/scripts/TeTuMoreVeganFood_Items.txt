@@ -1,0 +1,47 @@
+module Base
+{
+	item CannedVeganBolognese
+	{
+		DisplayName = Canned Vegan Bolognese,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		Icon = TeTueCannedVeganBolognese,
+		CannedFood = TRUE,
+		CantEat = TRUE,
+		Packaged = TRUE,
+		Calories = 540,
+		Carbohydrates = 68,
+		Lipids = 22,
+		Proteins = 18,
+		StaticModel = CanClosed,
+		WorldStaticModel = CanClosedBolognese,
+		Tags = HasMetal,
+	}
+	item CannedVeganBologneseOpen
+	{
+		DisplayName = Opened Canned Vegan Spaghetti Bolognese,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		Icon = TeTueCannedVeganBologneseOpen,
+		CannedFood = TRUE,
+		EatType = can,
+		EvolvedRecipe = Burger:12;Stew:24;Stir fry Griddle Pan:24;Stir fry:24;Roasted Vegetables:24;RicePot:24;RicePan:24;PastaPot:24;PastaPan:24;Omelette:12,
+		/*EvolvedRecipeName = Canned Bolognese,*/
+		EvolvedRecipeName = Bolognese,
+		FoodType = Vegetables,
+		Packaged = TRUE,
+		ReplaceOnUse = TinCanEmpty,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -24,
+		Calories = 540,
+		Carbohydrates = 68,
+		Lipids = 22,
+		Proteins = 18,
+		StaticModel = CanOpen,
+		WorldStaticModel = CanOpenBolognese,
+		Tags = HasMetal,
+	}
+}

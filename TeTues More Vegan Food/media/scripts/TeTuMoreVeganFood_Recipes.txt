@@ -1,0 +1,14 @@
+module Base
+{
+    	recipe Open Canned Vegan Bolognese
+    	{
+       		CannedVeganBolognese,
+       		keep [Recipe.GetItemTypes.CanOpener],
+
+       		Result:CannedVeganBologneseOpen,
+       		Time:80.0,
+       		Category:Cooking,
+       		OnGiveXP:Recipe.OnGiveXP.None,
+       		Sound:OpenCannedFood,
+    }
+}
