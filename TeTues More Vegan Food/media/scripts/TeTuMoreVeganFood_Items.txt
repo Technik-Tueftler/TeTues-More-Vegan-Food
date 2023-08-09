@@ -2,7 +2,7 @@ module Base
 {
 	item CannedVeganBolognese
 	{
-		DisplayName = Canned Volognese,
+		DisplayName = Canned Spaghetti Volognese,
 		DisplayCategory = Food,
 		Type = Food,
 		Weight = 0.8,
