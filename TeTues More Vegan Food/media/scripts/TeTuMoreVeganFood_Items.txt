@@ -2,7 +2,7 @@ module Base
 {
 	item CannedVeganBolognese
 	{
-		DisplayName = Canned Vegan Bolognese,
+		DisplayName = Canned Volognese,
 		DisplayCategory = Food,
 		Type = Food,
 		Weight = 0.8,
@@ -15,12 +15,12 @@ module Base
 		Lipids = 22,
 		Proteins = 18,
 		StaticModel = CanClosed,
-		WorldStaticModel = CanClosedBolognese,
+		WorldStaticModel = CannedVeganBolognese_Ground,
 		Tags = HasMetal,
 	}
 	item CannedVeganBologneseOpen
 	{
-		DisplayName = Opened Canned Vegan Spaghetti Bolognese,
+		DisplayName = Opened Canned Spaghetti Volognese,
 		DisplayCategory = Food,
 		Type = Food,
 		Weight = 0.8,
@@ -41,7 +41,7 @@ module Base
 		Lipids = 22,
 		Proteins = 18,
 		StaticModel = CanOpen,
-		WorldStaticModel = CanOpenBolognese,
+		WorldStaticModel = CannedVeganBolognese_Ground,
 		Tags = HasMetal,
 	}
 }
