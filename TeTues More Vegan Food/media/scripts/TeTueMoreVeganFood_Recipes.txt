@@ -23,7 +23,7 @@ module Base
 	{
 		TeTueSmokedTofuPackage,
 
-        Result:SmokedTofu=2,
+        Result:TeTueSmokedTofu=2,
 		Time:60.0,
 		Category:Cooking,
 		Sound:PutItemInBag,

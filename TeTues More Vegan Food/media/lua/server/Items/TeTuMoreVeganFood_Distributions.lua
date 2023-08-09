@@ -12,7 +12,7 @@ local ItemDist = {
         {"CrateRandomJunk", 2},
         {"DishCabinetGeneric", 2},
         {"FactoryLockers", 2},
-        {"GigamartCannedFood", 2},
+        {"GigamartCannedFood", 4},
         {"GigamartDryGoods", 2},
         {"GroceryStorageCrate1", 2},
         {"GroceryStorageCrate2", 2},
@@ -28,6 +28,20 @@ local ItemDist = {
         "TeTueMoreVeganFood.TeTueCannedVeganBolognese",
         "TeTueMoreVeganFood.TeTueTofuPackage",
         "TeTueMoreVeganFood.TeTueSmokedTofuPackage",
+      }
+    },
+    -- LootableMaps
+    {
+      Distributions = {
+        {"FridgeGeneric", 2},
+        {"FridgeRich", 2},
+        {"FridgeTrailerPark", 2},
+        {"FridgeOther", 5},
+      },
+      Items = {
+        "Base.Tofu",
+        "Base.TofuFried",
+        "TeTueMoreVeganFood.TeTueSmokedTofu",
       }
     },
     -- next item distribution group
