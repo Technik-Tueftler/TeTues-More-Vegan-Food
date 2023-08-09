@@ -1,6 +1,6 @@
 module Base
 {
-	item CannedVeganBolognese
+	item TeTueCannedVeganBolognese
 	{
 		DisplayName = Canned Spaghetti Volognese,
 		DisplayCategory = Food,
@@ -18,7 +18,7 @@ module Base
 		WorldStaticModel = CannedVeganBolognese_Ground,
 		Tags = HasMetal,
 	}
-	item CannedVeganBologneseOpen
+	item TeTueCannedVeganBologneseOpen
 	{
 		DisplayName = Opened Canned Spaghetti Volognese,
 		DisplayCategory = Food,
@@ -43,5 +43,53 @@ module Base
 		StaticModel = CanOpen,
 		WorldStaticModel = CannedVeganBolognese_Ground,
 		Tags = HasMetal,
+	}
+	item TeTueTofuPackage
+	{
+		DisplayName = Tofu Package,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.6,
+		Icon = TeTueTofuPacket,
+		CantEat = TRUE,
+		Packaged = TRUE,
+		Calories = 500,
+		Carbohydrates = 125,
+		Lipids = 2.5,
+		Proteins = 0,
+		WorldStaticModel = CandyPackage,
+	}
+	item TeTueSmokedTofuPackage
+	{
+		DisplayName = Smoked Tofu Package,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.6,
+		Icon = TeTueSmokedTofuPacket,
+		CantEat = TRUE,
+		Packaged = TRUE,
+		Calories = 500,
+		Carbohydrates = 125,
+		Lipids = 2.5,
+		Proteins = 0,
+		WorldStaticModel = CandyPackage,
+	}
+	item SmokedTofu
+	{
+		DisplayName = Smoked Tofu,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = TeTueSmokedTofu,
+		EvolvedRecipe = Soup:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Burger:15;Salad:15;RicePot:15;RicePan:15;Roasted Vegetables:15;PastaPot:15;PastaPan:15;Taco:5;Burrito:15;Burger:15,
+		FoodType = Vegetables,
+		DaysFresh = 6,
+		DaysTotallyRotten = 14,
+		HungerChange = -15,
+		Calories = 35,
+		Carbohydrates = 3,
+		Lipids = 1,
+		Proteins = 5,
+		WorldStaticModel = TofuFried_Ground,
 	}
 }

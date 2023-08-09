@@ -1,0 +1,16 @@
+module Base
+{
+	model CannedVeganBolognese_Ground
+	{
+		mesh = CanClosed,
+		texture = WorldItems/CannedVeganBolognese_Ground,
+		scale = 1.0,
+	}
+
+	model CannedVeganBologneseOpen_Ground
+	{
+		mesh = CanOpen,
+		texture = WorldItems/CannedVeganBolognese_Ground,
+		scale = 1.0,
+	}
+}

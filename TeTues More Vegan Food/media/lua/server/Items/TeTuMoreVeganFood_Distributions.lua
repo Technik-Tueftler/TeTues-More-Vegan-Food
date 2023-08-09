@@ -1,45 +1,60 @@
-
-require 'Items/ProceduralDistributions'
-
-table.insert(ProceduralDistributions["list"]["BreakRoomCounter"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["BreakRoomCounter"].items, 1);
-table.insert(ProceduralDistributions["list"]["BreakRoomShelves"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["BreakRoomShelves"].items, 1);
-table.insert(ProceduralDistributions["list"]["ChineseKitchenButcher"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["ChineseKitchenButcher"].items, 5);
-table.insert(ProceduralDistributions["list"]["CrateCannedFood"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["CrateCannedFood"].items, 3);
-table.insert(ProceduralDistributions["list"]["CrateCannedFoodSpoiled"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["CrateCannedFoodSpoiled"].items, 1);
-table.insert(ProceduralDistributions["list"]["CrateCanning"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["CrateCanning"].items, 1);
-table.insert(ProceduralDistributions["list"]["CrateEmptyTinCans"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["CrateEmptyTinCans"].items, 1);
-table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["CrateRandomJunk"].items, 1);
-table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["DishCabinetGeneric"].items, 1);
-table.insert(ProceduralDistributions["list"]["FactoryLockers"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["FactoryLockers"].items, 1);
-table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["GigamartCannedFood"].items, 5);
-table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 5);
-table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["GroceryStorageCrate1"].items, 3);
-table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["GroceryStorageCrate2"].items, 3);
-table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["GroceryStorageCrate3"].items, 3);
-table.insert(ProceduralDistributions["list"]["ItalianKitchenButcher"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["ItalianKitchenButcher"].items, 1);
-table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, 2);
-table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, 2);
-table.insert(ProceduralDistributions["list"]["PizzaKitchenButcher"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["PizzaKitchenButcher"].items, 1);
-table.insert(ProceduralDistributions["list"]["PlankStashMisc"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["PlankStashMisc"].items, 5);
-table.insert(ProceduralDistributions["list"]["ShelfGeneric"].items, "TeTueMoreVeganFood.CannedVeganBolognese");
-table.insert(ProceduralDistributions["list"]["ShelfGeneric"].items, 1);
+local ItemDist = {
+    -- LootableMaps
+    {
+      Distributions = {
+        {"BreakRoomCounter", 2},
+        {"BreakRoomShelves", 2},
+        {"ChineseKitchenButcher", 2},
+        {"CrateCannedFood", 2},
+        {"CrateCannedFoodSpoiled", 2},
+        {"CrateCanning", 2},
+        {"CrateEmptyTinCans", 2},
+        {"CrateRandomJunk", 2},
+        {"DishCabinetGeneric", 2},
+        {"FactoryLockers", 2},
+        {"GigamartCannedFood", 2},
+        {"GigamartDryGoods", 2},
+        {"GroceryStorageCrate1", 2},
+        {"GroceryStorageCrate2", 2},
+        {"GroceryStorageCrate3", 2},
+        {"ItalianKitchenButcher", 2},
+        {"KitchenCannedFood", 2},
+        {"KitchenDryFood", 2},
+        {"PizzaKitchenButcher", 2},
+        {"PlankStashMisc", 2},
+        {"ShelfGeneric", 2},
+      },
+      Items = {
+        "TeTueMoreVeganFood.TeTueCannedVeganBolognese",
+        "TeTueMoreVeganFood.TeTueTofuPackage",
+        "TeTueMoreVeganFood.TeTueSmokedTofuPackage",
+      }
+    },
+    -- next item distribution group
+    -- ...
+  }
+  
+  
+  
+  local function getLootTable(strLootTableName)
+    return ProceduralDistributions.list[strLootTableName]
+  end
+  
+  local function insertItem(tLootTable, strItem, iWeight)
+    table.insert(tLootTable.items, strItem)
+    table.insert(tLootTable.items, iWeight)
+  end
+  
+  local function preDistributionMerge()
+    for i=1, #ItemDist do
+      for j=1, #(ItemDist[i].Distributions) do
+        for k=1, #(ItemDist[i].Items) do
+          local tLootTable = getLootTable(ItemDist[i].Distributions[j][1])
+          local strItem = ItemDist[i].Items[k]
+          local iWeight = ItemDist[i].Distributions[j][2]
+          insertItem(tLootTable, strItem, iWeight)
+        end
+      end
+    end
+  end
+  Events.OnPreDistributionMerge.Add(preDistributionMerge)
