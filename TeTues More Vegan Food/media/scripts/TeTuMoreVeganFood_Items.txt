@@ -15,7 +15,7 @@ module Base
 		Lipids = 22,
 		Proteins = 18,
 		StaticModel = CanClosed,
-		WorldStaticModel = CannedVeganBolognese_Ground,
+		WorldStaticModel = TeTueCannedVeganBolognese_Ground,
 		Tags = HasMetal,
 	}
 	item TeTueCannedVeganBologneseOpen
@@ -41,7 +41,7 @@ module Base
 		Lipids = 22,
 		Proteins = 18,
 		StaticModel = CanOpen,
-		WorldStaticModel = CannedVeganBolognese_Ground,
+		WorldStaticModel = TeTueCannedVeganBologneseOpen_Ground,
 		Tags = HasMetal,
 	}
 	item TeTueTofuPackage
@@ -57,7 +57,7 @@ module Base
 		Carbohydrates = 125,
 		Lipids = 2.5,
 		Proteins = 0,
-		WorldStaticModel = CandyPackage,
+		WorldStaticModel = TeTueTofuPacket_Ground,
 	}
 	item TeTueSmokedTofuPackage
 	{
@@ -72,7 +72,7 @@ module Base
 		Carbohydrates = 125,
 		Lipids = 2.5,
 		Proteins = 0,
-		WorldStaticModel = CandyPackage,
+		WorldStaticModel = TeTueSmokedTofuPacket_Ground,
 	}
 	item TeTueSmokedTofu
 	{
@@ -90,6 +90,93 @@ module Base
 		Carbohydrates = 3,
 		Lipids = 1,
 		Proteins = 5,
-		WorldStaticModel = TofuFried_Ground,
+		WorldStaticModel = TeTueSmokedTofu_Ground,
+	}
+	item TeTueCannedPlanTuna
+	{
+		DisplayName = Canned PlanTuna,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = TeTueCannedPlanTuna,
+		CannedFood = TRUE,
+		CantEat = TRUE,
+		Packaged = TRUE,
+		Calories = 370,
+		Carbohydrates = 0,
+		Lipids = 34,
+		Proteins = 15,
+		StaticModel = CanClosed,
+		WorldStaticModel = TeTueCannedPlanTuna_Ground,
+		Tags = HasMetal,
+	}
+	item TeTueCannedPlanTunaOpen
+	{
+		DisplayName = Opened Tin of PlanTuna,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = TeTueCannedPlanTunaOpen,
+		CannedFood = TRUE,
+		EatType = can,
+		EvolvedRecipe = Omelette:9;Stew:18;Stir fry Griddle Pan:18;Stir fry:18;RicePot:18;RicePan:18;Sandwich:9;Sandwich Baguette:9;Taco:9;Burrito:18,
+		EvolvedRecipeName = Tuna,
+		FoodType = Vegetables,
+		Packaged = TRUE,
+		ReplaceOnUse = TinCanEmpty,
+		DaysFresh = 6,
+		DaysTotallyRotten = 14,
+		HungerChange = -18,
+		Calories = 370,
+		Carbohydrates = 0,
+		Lipids = 34,
+		Proteins = 15,
+		StaticModel = CanOpen,
+		WorldStaticModel = TeTueCannedPlanTunaOpen_Ground,
+		Tags = HasMetal,
+	}
+	item TeTueCannedChiliSinCarne
+	{
+		DisplayName = Canned Chili Sin Carne,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		Icon = TeTueCannedSinChili,
+		CannedFood = TRUE,
+		CantEat = TRUE,
+		Packaged = TRUE,
+		Calories = 260,
+		Carbohydrates = 33,
+		Lipids = 7,
+		Proteins = 16,
+		StaticModel = CanClosed,
+		WorldStaticModel = TeTueTinnedChilliSin_Ground,
+		Tags = HasMetal,
+	}
+	item TeTueCannedChiliSinCarneOpen
+	{
+		DisplayName = Opened Canned Chili Sin Carne,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		Icon = TeTueCannedSinChili_Open,
+		CannedFood = TRUE,
+		EatType = can,
+		EvolvedRecipe = Stew:16;Stir fry Griddle Pan:16;Stir fry:16;Roasted Vegetables:16;RicePot:16;RicePan:16;Taco:8;Burrito:8;Omelette:8;Burger:8;Sandwich:8;Sandwich Baguette:8,
+		/*EvolvedRecipeName = Canned Chili,*/
+		EvolvedRecipeName = Chili,
+		FoodType = Vegetables,
+		Packaged = TRUE,
+		ReplaceOnUse = TinCanEmpty,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -16,
+		Calories = 260,
+		Carbohydrates = 33,
+		Lipids = 7,
+		Proteins = 16,
+		StaticModel = CanOpen,
+		WorldStaticModel = TeTueTinnedChilliSinOpen_Ground,
+		Tags = HasMetal,
 	}
 }

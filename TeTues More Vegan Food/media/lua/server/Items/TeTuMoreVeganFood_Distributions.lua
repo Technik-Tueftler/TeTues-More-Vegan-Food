@@ -4,7 +4,7 @@ local ItemDist = {
       Distributions = {
         {"BreakRoomCounter", 2},
         {"BreakRoomShelves", 2},
-        {"ChineseKitchenButcher", 2},
+        {"ChineseKitchenButcher", 5},
         {"CrateCannedFood", 2},
         {"CrateCannedFoodSpoiled", 2},
         {"CrateCanning", 2},
@@ -12,7 +12,7 @@ local ItemDist = {
         {"CrateRandomJunk", 2},
         {"DishCabinetGeneric", 2},
         {"FactoryLockers", 2},
-        {"GigamartCannedFood", 4},
+        {"GigamartCannedFood", 5},
         {"GigamartDryGoods", 2},
         {"GroceryStorageCrate1", 2},
         {"GroceryStorageCrate2", 2},
@@ -28,6 +28,8 @@ local ItemDist = {
         "TeTueMoreVeganFood.TeTueCannedVeganBolognese",
         "TeTueMoreVeganFood.TeTueTofuPackage",
         "TeTueMoreVeganFood.TeTueSmokedTofuPackage",
+        "TeTueMoreVeganFood.TeTueCannedPlanTuna",
+        "TeTueMoreVeganFood.TeTueCannedChiliSinCarne",
       }
     },
     -- LootableMaps

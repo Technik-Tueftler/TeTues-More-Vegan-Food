@@ -28,4 +28,24 @@ module Base
 		Category:Cooking,
 		Sound:PutItemInBag,
 	}
+	recipe Open Canned PlanTuna
+    {
+       	TeTueCannedPlanTuna,
+       	keep [Recipe.GetItemTypes.CanOpener],
+
+       	Result:TeTueCannedPlanTunaOpen,
+       	Time:80.0,
+       	Category:Cooking,
+       	Sound:OpenCannedFood,
+    }
+	recipe Open Canned Chili Sin Carne
+    {
+       	TeTueCannedChiliSinCarne,
+       	keep [Recipe.GetItemTypes.CanOpener],
+
+       	Result:TeTueCannedChiliSinCarneOpen,
+       	Time:80.0,
+       	Category:Cooking,
+       	Sound:OpenCannedFood,
+    }
 }
