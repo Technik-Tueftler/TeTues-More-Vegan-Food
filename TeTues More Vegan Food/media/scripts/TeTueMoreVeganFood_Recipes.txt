@@ -1,0 +1,51 @@
+module Base
+{
+	recipe Open Canned Vegan Bolognese
+    {
+       	TeTueCannedVeganBolognese,
+       	keep [Recipe.GetItemTypes.CanOpener],
+
+       	Result:TeTueCannedVeganBologneseOpen,
+       	Time:80.0,
+       	Category:Cooking,
+       	Sound:OpenCannedFood,
+    }
+	recipe Open Tofu Package
+	{
+		TeTueTofuPackage,
+
+        Result:Tofu=2,
+		Time:60.0,
+		Category:Cooking,
+		Sound:PutItemInBag,
+	}
+	recipe Open Smoked Tofu Package
+	{
+		TeTueSmokedTofuPackage,
+
+        Result:TeTueSmokedTofu=2,
+		Time:60.0,
+		Category:Cooking,
+		Sound:PutItemInBag,
+	}
+	recipe Open Canned PlanTuna
+    {
+       	TeTueCannedPlanTuna,
+       	keep [Recipe.GetItemTypes.CanOpener],
+
+       	Result:TeTueCannedPlanTunaOpen,
+       	Time:80.0,
+       	Category:Cooking,
+       	Sound:OpenCannedFood,
+    }
+	recipe Open Canned Chili Sin Carne
+    {
+       	TeTueCannedChiliSinCarne,
+       	keep [Recipe.GetItemTypes.CanOpener],
+
+       	Result:TeTueCannedChiliSinCarneOpen,
+       	Time:80.0,
+       	Category:Cooking,
+       	Sound:OpenCannedFood,
+    }
+}

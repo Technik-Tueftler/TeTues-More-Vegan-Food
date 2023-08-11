@@ -1,0 +1,60 @@
+module Base
+{
+	model TeTueCannedVeganBolognese_Ground
+	{
+		mesh = CanClosed,
+		texture = WorldItems/TeTueCannedVeganBolognese_Ground,
+		scale = 1.0,
+	}
+
+	model TeTueCannedVeganBologneseOpen_Ground
+	{
+		mesh = CanOpen,
+		texture = WorldItems/TeTueCannedVeganBolognese_Ground,
+		scale = 1.0,
+	}
+
+	model TeTueTofuPacket_Ground
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = WorldItems/TeTueTofuPacket_Ground,
+		scale = 0.4,
+	}
+	
+	model TeTueSmokedTofuPacket_Ground
+	{
+		mesh = WorldItems/CandyPackage,
+		texture = WorldItems/TeTueSmokedTofuPacket_Ground,
+		scale = 0.4,
+	}
+	model TeTueSmokedTofu_Ground
+	{
+		mesh = WorldItems/Tofu,
+		texture = WorldItems/TeTueSmokedTofu_Ground,
+		scale = 0.3,
+	}
+	model TeTueCannedPlanTuna_Ground
+	{
+		mesh = WorldItems/TinnedTuna,
+		texture = WorldItems/TeTueTinnedPlanTuna_Ground,
+		scale = 0.4,
+	}
+	model TeTueCannedPlanTunaOpen_Ground
+    {
+        mesh = WorldItems/TinnedTunaOpen,
+        texture = WorldItems/TeTueTinnedPlanTuna_Ground,
+        scale = 0.4,
+    }
+	model TeTueTinnedChilliSin_Ground
+    {
+        mesh = CanClosed,
+        texture = WorldItems/TeTueTinnedChilliSin_Ground,
+        scale = 1.0,
+    }
+	model TeTueTinnedChilliSinOpen_Ground
+    {
+        mesh = CanOpen,
+        texture = WorldItems/TeTueTinnedChilliSin_Ground,
+        scale = 1.0,
+    }
+}
